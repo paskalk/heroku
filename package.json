@@ -1,31 +1,19 @@
 {
-  "name": "foodshare",
-  "version": "1.1.0",
-  "private": true,
+  "name": "foodshare-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
-    "nodemon": "^1.19.4",
+    "mssql": "^5.1.0",
     "pg": "^7.12.1"
-  },
-  "scripts": {
-    "heroku_no_build": "nodemon serve.js",
-    "server": "nodemon api.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
